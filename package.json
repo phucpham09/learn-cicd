@@ -1,6 +1,7 @@
 {
   "name": "express-sample-project",
   "version": "1.0.0",
+  "author": "PhucPham",
   "description": "express sample project from bkc labs",
   "main": "index.js",
   "scripts": {
@@ -9,7 +10,6 @@
     "start": "node ./src/index.js",
     "build": "esbuild ./src/index.js --platform=node --bundle --minify --outfile=bundle.js --external:./node_modules/*"
   },
-  "author": "bkc-labs.io",
   "license": "ISC",
   "dependencies": {
     "@google-cloud/storage": "^6.4.2",
